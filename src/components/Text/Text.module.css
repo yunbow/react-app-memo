@@ -1,0 +1,33 @@
+.h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--color-foreground);
+}
+
+.h2 {
+  margin: 0 0 15px 0;
+  font-size: 18px;
+  color: var(--color-secondary-foreground);
+}
+
+.body {
+  font-size: 16px;
+  margin: 0;
+  color: var(--color-foreground);
+}
+
+.empty {
+  color: var(--color-muted-foreground);
+  padding: 10px;
+  font-style: italic;
+  margin: 0;
+}
+
+.default {
+  color: var(--color-foreground);
+}
+
+.muted {
+  color: var(--color-muted-foreground);
+}

@@ -1,0 +1,16 @@
+.item {
+  padding: 10px;
+  border-bottom: 1px solid var(--color-border);
+  cursor: pointer;
+  transition: background-color 0.2s;
+  list-style: none;
+}
+
+.item:hover {
+  background-color: var(--color-muted);
+}
+
+.active {
+  background-color: var(--color-accent);
+  border-left: 3px solid var(--color-primary);
+}

@@ -1,0 +1,13 @@
+.container {
+  width: 300px;
+  background-color: var(--color-sidebar);
+  padding: 15px;
+  border-right: 1px solid var(--color-sidebar-border);
+  overflow-y: auto;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

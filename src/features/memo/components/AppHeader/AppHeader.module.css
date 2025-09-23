@@ -1,0 +1,14 @@
+.header {
+  background-color: var(--color-primary);
+  color: var(--color-primary-foreground);
+  padding: 15px 20px;
+  border-radius: var(--radius) var(--radius) 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+}

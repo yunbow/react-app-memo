@@ -1,0 +1,31 @@
+.input {
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid var(--color-input);
+  border-radius: var(--radius);
+  width: 100%;
+  font-family: inherit;
+  background-color: var(--color-card);
+  color: var(--color-card-foreground);
+}
+
+.textarea {
+  flex: 1;
+  padding: 15px;
+  font-size: 16px;
+  resize: none;
+  border: 1px solid var(--color-input);
+  border-radius: var(--radius);
+  width: 100%;
+  min-height: 300px;
+  font-family: inherit;
+  background-color: var(--color-card);
+  color: var(--color-card-foreground);
+}
+
+.input:focus,
+.textarea:focus {
+  outline: none;
+  border-color: var(--color-ring);
+  box-shadow: 0 0 5px var(--color-ring);
+}
